@@ -1,4 +1,4 @@
-version: "0.1.0"
+version: "0.1.1"
 description: "Portable C99 IMU startup and dynamic-quality policy layer"
 url: "https://github.com/smartsensingme/imu_attitude"
 repository: "https://github.com/smartsensingme/imu_attitude.git"
@@ -15,5 +15,4 @@ targets:
 dependencies:
   kalman_attitude:
     git: "https://github.com/smartsensingme/kalman_attitude.git"
-    version: "0.1.0"
-
+    version: "v0.1.1"
