@@ -1,0 +1,51 @@
+# Operating-system metadata (macOS, Windows, Linux)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*/
+.directory
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# ESP-IDF generated output and local configuration
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Native build output
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+Testing/
+
+# Python/tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Coverage and temporary files
+.coverage
+coverage.xml
+htmlcov/
+*.tmp
+*.temp
+

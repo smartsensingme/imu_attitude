@@ -1,0 +1,19 @@
+version: "0.1.0"
+description: "Portable C99 IMU startup and dynamic-quality policy layer"
+url: "https://github.com/smartsensingme/imu_attitude"
+repository: "https://github.com/smartsensingme/imu_attitude.git"
+documentation: "https://github.com/smartsensingme/imu_attitude/blob/main/README.md"
+issues: "https://github.com/smartsensingme/imu_attitude/issues"
+license: "MIT"
+idf: ">=5.0"
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+  - esp32c6
+dependencies:
+  kalman_attitude:
+    git: "https://github.com/smartsensingme/kalman_attitude.git"
+    version: "0.1.0"
+
