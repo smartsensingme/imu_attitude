@@ -18,7 +18,7 @@ dependency in the consuming component's `main/idf_component.yml`:
 dependencies:
   imu_attitude:
     git: https://github.com/smartsensingme/imu_attitude.git
-    version: "0.1.1"
+    version: "v0.1.1"
 ```
 
 The component manifest resolves the required
